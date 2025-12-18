@@ -477,3 +477,8 @@ header {
     gap: 1.25rem;
   }
 }
+@media (min-width: 645px) {
+  img {
+    display: block;
+  }
+}
