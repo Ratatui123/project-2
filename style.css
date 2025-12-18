@@ -482,3 +482,6 @@ header {
     display: block;
   }
 }
+.featured picture img {
+  width: 100%;
+  max-width: 700px}
