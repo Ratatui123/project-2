@@ -487,15 +487,22 @@ header {
     display: block;
   }
 }
+/* More Info links */
 .more-info a {
-  color: #1a73e8;        
+  color: #1a73e8;      /* default */
   text-decoration: underline;
+  font-weight: 500;
 }
 
+
 .more-info a:visited {
-  color: #6a1bb9;        
+  color: #6a1bb9;     
 }
-.more-info a:visited {
-  color: #555;
+
+/* hover */
+.more-info a:hover {
+  color: #ffd47f;
+  border-bottom: 1px solid #ffd47f;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
 }
 
