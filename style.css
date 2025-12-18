@@ -484,4 +484,8 @@ header {
 }
 .featured picture img {
   width: 100%;
-  max-width: 700px}
+  max-width: 600px;
+  height: 350px;        
+  object-fit: cover;   
+  margin: 0 auto;
+}
