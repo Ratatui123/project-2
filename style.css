@@ -487,4 +487,15 @@ header {
     display: block;
   }
 }
+.more-info a {
+  color: #1a73e8;        
+  text-decoration: underline;
+}
+
+.more-info a:visited {
+  color: #6a1bb9;        
+}
+.more-info a:visited {
+  color: #555;
+}
 
